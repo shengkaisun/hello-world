@@ -1,2 +1,6 @@
-# hello-world
-The edit here!
+# Hello world app
+
+By Shengkai Sun 
+
+Using Python and HTML
+

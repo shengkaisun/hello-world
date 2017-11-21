@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World App</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <p>By Shengkai Sun</p>
+
+    <script type="text/javascript">
+        function showDateTime() {
+            document.getElementById("time").style.font = "Arial";
+            document.getElementById("time").style.fontSize = "15px";
+            document.getElementById("time").style.color = "grey";
+            document.getElementById("time").innerHTML = Date();
+        }
+    </script>
+    <button type="button" onclick="showDateTime()">
+        Date and Time    
+    </button>
+    <p id="time"></p>
+</body>
+</html>
+
