@@ -124,7 +124,7 @@ class WSGIServer(object):
 
 
 (HOST, PORT) = '', 80
-HTML = 'template/index.html'
+HTML = 'index.html'
 
 def make_server(server_address, application):
     server = WSGIServer(server_address)
